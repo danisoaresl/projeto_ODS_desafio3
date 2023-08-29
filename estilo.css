@@ -1,0 +1,176 @@
+html, body {
+    margin:0.5 rem;
+    color: #535353;
+}
+
+
+header {
+  background-color: white;
+  color: black;
+  height:60px;
+  width:100%;
+  position:relative;
+  z-index: 10;
+}
+
+
+#logo {
+  width: 70px;
+  position: absolute;
+  top: 10px;
+  margin-left: 5%;
+  }
+
+
+  #menu { 
+    float:right;
+    margin-right: 5%;
+    list-style: none;
+    color: green;
+  }
+
+
+#conteudo {
+  width:90%;
+  line-height: 40px;
+  margin-top: 80px;
+}
+
+
+  .site {
+    padding-left: 10%;
+    padding-right: 10%;
+    background: url("imagens/fundo.jpg");
+    height: 100%;
+    background-image: cover;
+  }
+
+
+  .topo {
+    background: url("imagens/peixinhos.jpg");
+    border-radius: 10px:;
+    padding: 10px;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 10%;
+    margin: 0px;
+    font: bold; 
+    font-size: 25px;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    text-align: center;
+  }
+
+
+  .btn {
+    color: brown;
+    padding: 10px 10px 10px 10px;
+    margin-top: 30px;
+  }
+
+
+  .btn:hover {
+    background-color: aquamarine;
+  }
+
+
+  .conteudo {
+    padding: 10px;
+    padding-left: 30px;
+    margin: 50px;
+    font: bold; 
+    color: black;
+    width: 50%;
+  
+}
+
+
+.destaque {
+  background-color: greenyellow;
+}
+
+.destaque1 {
+  background-color: yellow;
+}
+
+.destaque3 {
+  background-color: pink;
+
+}
+
+
+section { 
+  padding: 20px;
+  float: left;
+}
+
+
+li {
+  float: left;
+  padding: 10px;
+}
+
+
+li:hover {
+  background-color: white;
+}
+
+
+.colunadefault {
+  float: left;
+  padding: 0 5%;
+  position: relative;  
+  line-height: 40px;
+  margin-top: 30px;
+}
+
+
+.coluna1 {
+  width: 40%;
+}
+
+
+.coluna2 {
+  width: 15%;
+  background-color: #D3D3D3;
+}
+
+
+.coluna3 {
+  width: 30%;
+}
+
+
+.justificado {
+  text-align: justify;
+}
+
+
+.centralizado {
+  text-align: center;
+}
+
+
+  .img {
+    width:50%;
+    padding: 10px;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 10%;
+  }
+
+
+footer {
+    width: 90%;
+    text-align: center;
+    float: left;
+    margin-top: 30px;
+}
+
+
+@media screen and (min-width: 768px) { 
+  .topo {
+          }
+  .conteudo {
+  }
+}
