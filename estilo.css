@@ -14,26 +14,63 @@ header {
 }
 
 
+.flex {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  max-height: inherit;
+}
+
+
+
 #logo {
   width: 70px;
-  position: absolute;
   top: 10px;
-  margin-left: 5%;
-  }
+  margin-left: 1%;
+}
 
 
-  #menu { 
-    float:right;
-    margin-right: 5%;
-    list-style: none;
-    color: green;
-  }
+#menu { 
+  float:right;
+  margin-right: 5%;
+  list-style: none;
+  color: green;
+}
 
 
 #conteudo {
   width:90%;
   line-height: 40px;
-  margin-top: 80px;
+  margin-top: 10px;
+}
+
+#youtube {
+  line-height: 40px;
+  margin-top: 10px;
+}
+
+#mapa {
+  float: left;
+  padding-left: 35%;
+}
+
+#natura {
+  width:30%;
+  line-height: 40px;
+  margin-top: 30px;
+  padding-left: 15%;
+}
+
+
+#ecopontos {
+  line-height: 40px;
+  margin-top: 10px;
+}
+
+
+#sobre_mim {
+  line-height: 40px;
+  margin-top: 10px;
 }
 
 
@@ -69,19 +106,17 @@ header {
   }
 
 
-  .btn:hover {
-    background-color: aquamarine;
-  }
+.btn:hover {
+   background-color: aquamarine;
+}
 
 
-  .conteudo {
-    padding: 10px;
-    padding-left: 30px;
-    margin: 50px;
-    font: bold; 
-    color: black;
-    width: 50%;
-  
+.conteudo {
+  padding: 10px;
+  padding-left: 30px;
+  margin: 50px;
+  font: bold; 
+  color: black;
 }
 
 
@@ -90,38 +125,25 @@ header {
 }
 
 .destaque1 {
-  background-color: yellow;
+  background-color: greenyellow;
 }
 
 .destaque3 {
-  background-color: pink;
-
+  background-color:  #D3D3D3;
 }
 
 
-section { 
-  padding: 20px;
-  float: left;
-}
-
-
-li {
-  float: left;
-  padding: 10px;
-}
-
-
-li:hover {
-  background-color: white;
+#decomposicao {
+  margin-top: 10px;
+  background-color: #D3D3D3;
 }
 
 
 .colunadefault {
   float: left;
-  padding: 0 5%;
+  padding: 0 1%;
   position: relative;  
   line-height: 40px;
-  margin-top: 30px;
 }
 
 
@@ -131,8 +153,8 @@ li:hover {
 
 
 .coluna2 {
-  width: 15%;
-  background-color: #D3D3D3;
+  width: 30%;
+ 
 }
 
 
@@ -152,12 +174,35 @@ li:hover {
 
 
   .img {
-    width:50%;
+    width: 10%;
     padding: 10px;
-    padding-left: 20%;
-    padding-right: 20%;
+    padding-top: 10%;
+    align-items: left;
+    margin-top: 10px;
+  }
+
+  .img2 {
+    width: 40%;
     padding-top: 10%;
   }
+
+
+section { 
+  padding: 20px;
+  float: left;
+  
+}
+
+
+li {
+  float: left;
+  padding: 10px;
+}
+
+
+li:hover {
+  background-color: white;
+}
 
 
 footer {
