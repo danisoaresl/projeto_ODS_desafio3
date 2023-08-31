@@ -17,7 +17,7 @@ header {
 .flex {
   display: flex;
   align-items: center;
-  flex-direction: row;
+  _flex-direction: row;
   max-height: inherit;
 }
 
@@ -100,16 +100,86 @@ header {
 
 
   .btn {
-    color: brown;
-    padding: 10px 10px 10px 10px;
-    margin-top: 30px;
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    padding: 15px 32px;
+    display: inline-block;
+    border-radius: 10px;
+    font-size: 16px;
+    margin-top: 10px;
+    
   }
 
+  .btn-youtube{
+    background-color: yellow;
+    color: black;
+    text-decoration: none;
+    padding: 15px 32px;
+    display: inline-block;
+    border-radius: 10px;
+    font-size: 16px;
+    margin-top: 10px;
+  }
+
+  .btn-youtube:hover{
+    background-color: aquamarine;
+  }
+
+  
 
 .btn:hover {
    background-color: aquamarine;
 }
 
+
+.btn1 {
+  background-color: pink;
+  color: black;
+  text-decoration: none;
+  padding: 15px 32px;
+  display: inline-block;
+  border-radius: 10px;
+  font-size: 16px;
+  margin-top: 10px;
+  
+}
+
+.btn1:hover {
+  background-color: aquamarine;
+}
+
+.btn2 {
+  background-color: grey;
+  color: black;
+  text-decoration: none;
+  padding: 15px 32px;
+  display: inline-block;
+  border-radius: 10px;
+  font-size: 16px;
+  margin-top: 10px;
+  
+}
+
+.btn2:hover {
+  background-color: aquamarine;
+}
+
+.btn3 {
+  background-color: orange;
+  color: black;
+  text-decoration: none;
+  padding: 15px 32px;
+  display: inline-block;
+  border-radius: 10px;
+  font-size: 16px;
+  margin-top: 10px;
+  
+}
+
+.btn3:hover {
+  background-color: aquamarine;
+}
 
 .conteudo {
   padding: 10px;
@@ -186,6 +256,11 @@ header {
     padding-top: 10%;
   }
 
+  .img3{
+    width: 90%;
+    padding-top: 30px;
+  }
+
 
 section { 
   padding: 20px;
@@ -197,11 +272,6 @@ section {
 li {
   float: left;
   padding: 10px;
-}
-
-
-li:hover {
-  background-color: white;
 }
 
 
