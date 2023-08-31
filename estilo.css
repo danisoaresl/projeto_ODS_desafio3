@@ -1,6 +1,7 @@
 html, body {
     margin:0.5 rem;
     color: #535353;
+    background-size: cover;
 }
 
 
@@ -20,7 +21,6 @@ header {
   _flex-direction: row;
   max-height: inherit;
 }
-
 
 
 #logo {
@@ -74,64 +74,59 @@ header {
 }
 
 
-  .site {
-    padding-left: 10%;
-    padding-right: 10%;
-    background: url("imagens/fundo.jpg");
-    height: 100%;
-    background-image: cover;
-  }
-
-
-  .topo {
-    background: url("imagens/peixinhos.jpg");
-    border-radius: 10px:;
-    padding: 10px;
-    padding-left: 20%;
-    padding-right: 20%;
-    padding-top: 10%;
-    margin: 0px;
-    font: bold; 
-    font-size: 25px;
-    color: white;
-    text-shadow: 2px 2px 2px black;
-    text-align: center;
-  }
-
-
-  .btn {
-    background-color: white;
-    color: black;
-    text-decoration: none;
-    padding: 15px 32px;
-    display: inline-block;
-    border-radius: 10px;
-    font-size: 16px;
-    margin-top: 10px;
-    
-  }
-
-  .btn-youtube{
-    background-color: yellow;
-    color: black;
-    text-decoration: none;
-    padding: 15px 32px;
-    display: inline-block;
-    border-radius: 10px;
-    font-size: 16px;
-    margin-top: 10px;
-  }
-
-  .btn-youtube:hover{
-    background-color: aquamarine;
-  }
-
-  
-
-.btn:hover {
-   background-color: aquamarine;
+.site {
+  padding-left: 10%;
+  padding-right: 10%;
+  background: url("imagens/fundo.jpg");
+  height: 100%;
+  background-image: cover;
 }
 
+
+.topo {
+  background: url("imagens/peixinhos.jpg");
+  border-radius: 10px:;
+  padding: 10px;
+  padding-left: 20%;
+  padding-right: 20%;
+  padding-top: 10%;
+  margin: 0px;
+  font: bold; 
+  font-size: 25px;
+  color: white;
+  text-shadow: 2px 2px 2px black;
+  text-align: center;
+}
+
+.btn {
+  background-color: white;
+  color: black;
+  text-decoration: none;
+  padding: 15px 32px;
+  display: inline-block;
+  border-radius: 10px;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.btn-youtube{
+  background-color: yellow;
+  color: black;
+  text-decoration: none;
+  padding: 15px 32px;
+  display: inline-block;
+  border-radius: 10px;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.btn-youtube:hover{
+  background-color: aquamarine;
+}
+
+.btn:hover {
+  background-color: aquamarine;
+}
 
 .btn1 {
   background-color: pink;
@@ -141,8 +136,7 @@ header {
   display: inline-block;
   border-radius: 10px;
   font-size: 16px;
-  margin-top: 10px;
-  
+  margin-top: 10px;  
 }
 
 .btn1:hover {
@@ -158,7 +152,6 @@ header {
   border-radius: 10px;
   font-size: 16px;
   margin-top: 10px;
-  
 }
 
 .btn2:hover {
@@ -174,7 +167,6 @@ header {
   border-radius: 10px;
   font-size: 16px;
   margin-top: 10px;
-  
 }
 
 .btn3:hover {
@@ -189,7 +181,6 @@ header {
   color: black;
 }
 
-
 .destaque {
   background-color: greenyellow;
 }
@@ -202,12 +193,10 @@ header {
   background-color:  #D3D3D3;
 }
 
-
 #decomposicao {
   margin-top: 10px;
   background-color: #D3D3D3;
 }
-
 
 .colunadefault {
   float: left;
@@ -216,76 +205,64 @@ header {
   line-height: 40px;
 }
 
-
 .coluna1 {
   width: 40%;
 }
 
-
 .coluna2 {
   width: 30%;
- 
-}
-
+ }
 
 .coluna3 {
   width: 30%;
 }
 
-
 .justificado {
   text-align: justify;
 }
-
 
 .centralizado {
   text-align: center;
 }
 
+.img {
+  width: 10%;
+  padding: 10px;
+  padding-top: 10%;
+  align-items: left;
+  margin-top: 10px;
+}
 
-  .img {
-    width: 10%;
-    padding: 10px;
-    padding-top: 10%;
-    align-items: left;
-    margin-top: 10px;
-  }
+.img2 {
+  width: 40%;
+  padding-top: 10%;
+}
 
-  .img2 {
-    width: 40%;
-    padding-top: 10%;
-  }
-
-  .img3{
-    width: 90%;
-    padding-top: 30px;
-  }
-
+.img3{
+  width: 90%;
+  padding-top: 30px;
+}
 
 section { 
   padding: 20px;
   float: left;
-  
 }
-
 
 li {
   float: left;
   padding: 10px;
 }
 
-
 footer {
-    width: 90%;
-    text-align: center;
-    float: left;
-    margin-top: 30px;
+  width: 90%;
+  text-align: center;
+  float: left;
+  margin-top: 30px;
 }
-
 
 @media screen and (min-width: 768px) { 
   .topo {
           }
   .conteudo {
   }
-}
+} 
