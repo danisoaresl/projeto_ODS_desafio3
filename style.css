@@ -54,6 +54,9 @@ header {
 #mapa {
   float: left;
   padding-left: 35%;
+  width: 26rem;
+  height: 26rem;
+  border: 0;
 }
 
 #natura {
