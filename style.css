@@ -82,7 +82,7 @@ header {
 .site {
   padding-left: 10%;
   padding-right: 10%;
-  background: url("imagens/fundo.jpg");
+  background: url("imagens/fundo.jpg"); 
   height: 100%;
   background-image: cover;
 }
@@ -104,8 +104,8 @@ header {
 }
 
 .btn {
-  background-color: white;
-  color: black;
+  background-color: green;
+  color: white;
   text-decoration: none;
   padding: 10px;
   display: inline-block;
@@ -165,7 +165,7 @@ header {
 
 .btn3 {
   background-color: green;
-  color: black;
+  color: white;
   text-decoration: none;
   padding: 15px 32px;
   display: inline-block;
@@ -186,6 +186,10 @@ header {
   color: black;
 }
 
+.conteudo h3 {
+  text-shadow: 2px 0 #fff, -2px 0 #fff, 0 2px #fff, 0 -2px #fff,
+  1px 1px #fff, -1px -1px #fff, 1px -1px #fff, -1px 1px #fff;
+}
 .destaque {
   background-color: lightgrey;
 }
